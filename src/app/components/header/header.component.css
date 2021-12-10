@@ -1,0 +1,16 @@
+@media screen and (max-width: 375px){
+  #head-menu {
+    height: 33px;
+  }
+
+  .menu {
+    float: right;
+  }
+
+  .bar{
+    width: 24px;
+    height: 3px;
+    background: #9E9AA8;
+    margin: 6px 0;
+  }
+}
