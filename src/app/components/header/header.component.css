@@ -1,9 +1,10 @@
 @media screen and (max-width: 375px){
   #head-menu {
     height: 33px;
+    position: relative;
   }
 
-  .menu {
+  .menu-icon {
     float: right;
   }
 

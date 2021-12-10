@@ -1,0 +1,8 @@
+@media screen and (max-width: 375px){
+  #menu {
+    background: #3A3054;
+    border-radius: 10px;
+    position: absolute;
+    top: 23px;
+  }
+}
