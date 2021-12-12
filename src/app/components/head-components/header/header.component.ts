@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DropdownMenuService} from "../../services/dropdown-menu.service";
+import {DropdownMenuService} from "../../../services/dropdown-menu.service";
 
 @Component({
   selector: 'app-header',

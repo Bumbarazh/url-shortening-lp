@@ -1,7 +1,9 @@
 @media screen and (max-width: 375px){
   #head-menu {
+    margin: 0 auto;
     height: 33px;
     position: relative;
+    max-width: 327px;
   }
 
   .menu-icon {
