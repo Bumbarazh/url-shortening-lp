@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DropdownMenuService} from "../../services/dropdown-menu.service";
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dropDownMenu: DropdownMenuService) { }
+
+  getMenu(): void {
+    this.dropDownMenu.showMobileMenu();
+  }
 
   ngOnInit(): void {
   }

@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { TopMenuComponent } from './components/top-menu/top-menu.component';
 import { LoginMenuComponent } from './components/login-menu/login-menu.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginMenuComponent } from './components/login-menu/login-menu.component
     LoginMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
