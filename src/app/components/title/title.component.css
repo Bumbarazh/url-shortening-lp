@@ -1,17 +1,17 @@
 @media screen and (max-width: 375px){
   #title {
-    margin: 0 auto;
+    margin: 31px auto 100px;
     max-width: 327px;
     text-align: center;
   }
 
-  h1 {
+  h2 {
     font-weight: bold;
     font-size: 42px;
     line-height: 48px;
     letter-spacing: -1.05px;
     color: #34313D;
-    margin-bottom: 15px;
+    margin: 0 0 15px;
   }
 
   p.content {

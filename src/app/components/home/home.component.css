@@ -2,6 +2,10 @@
   #main-content {
     margin-top: 40px;
   }
+
+  #top{
+    height: 887px;
+  }
 }
 
 @media screen and (min-width: 376px){

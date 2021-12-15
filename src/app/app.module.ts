@@ -10,6 +10,7 @@ import { LoginMenuComponent } from './components/head-components/login-menu/logi
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HeadPictureComponent } from './components/head-components/head-picture/head-picture.component';
 import { TitleComponent } from './components/title/title.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TitleComponent } from './components/title/title.component';
     TopMenuComponent,
     LoginMenuComponent,
     HeadPictureComponent,
-    TitleComponent
+    TitleComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
