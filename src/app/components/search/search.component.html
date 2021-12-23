@@ -1,5 +1,11 @@
-<form>
-    <input type="text" id="search" placeholder="Shorten a link here..." required size="20">
-    <p id="error" role="alert"></p>
+<form #shortForm="ngForm" role="form" (ngSubmit)="onSubmit(shortForm)">
+    <input type="text"
+           id="search"
+           placeholder="Shorten a link here..."
+           required size="20"
+           name="urlShort"
+           (focus)="onInputFocus()"
+           ngModel="">
+    <p id="error" role="alert" style="display: none">Please add a link</p>
     <button type="submit" class="submit-button">Shorten It!</button>
 </form>
